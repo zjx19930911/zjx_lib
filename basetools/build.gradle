@@ -55,7 +55,7 @@ dependencies {
     compile 'com.github.zhaokaiqiang.klog:library:1.6.0'
     compile 'com.google.code.gson:gson:2.8.2'
     //UI库
-    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
     compile 'com.contrarywind:Android-PickerView:3.2.7'
     compile 'me.shaohui.advancedluban:library:1.3.2'
     compile 'com.bigkoo:convenientbanner:2.0.5'
@@ -69,8 +69,8 @@ dependencies {
     compile files('libs/aliyun-oss-sdk-android-2.3.0.jar')
     compile files('libs/alipaySdk-20170725.jar')
     //qmui
-    implementation 'com.qmuiteam:qmui:1.2.0'
-    implementation 'com.qmuiteam:arch:0.3.1'
+    compile 'com.qmuiteam:qmui:1.2.0'
+    compile 'com.qmuiteam:arch:0.3.1'
 
 }
 apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'

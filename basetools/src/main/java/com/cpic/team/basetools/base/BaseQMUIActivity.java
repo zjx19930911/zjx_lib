@@ -15,6 +15,7 @@ import android.widget.Toast;
 import com.cpic.team.basetools.model.LogoutEvent;
 import com.cpic.team.basetools.utils.ProgressDialogHandle;
 import com.qmuiteam.qmui.arch.QMUIActivity;
+import com.qmuiteam.qmui.util.QMUIColorHelper;
 import com.qmuiteam.qmui.widget.dialog.QMUITipDialog;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 import com.sdsmdg.tastytoast.TastyToast;
