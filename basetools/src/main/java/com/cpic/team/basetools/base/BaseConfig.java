@@ -6,7 +6,7 @@ import android.os.Handler;
 import android.os.Looper;
 
 import com.qmuiteam.qmui.arch.QMUISwipeBackActivityManager;
-import com.wanjian.cockroach.Cockroach;
+
 
 /**
  * Created by Administrator on 2017/2/6 0006.
