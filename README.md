@@ -20,9 +20,13 @@ compile 'com.github.zjx19930911:zjx_base:54e0146971'
 #### 在application中初始化
 ```
    BaseConfig.init(getApplicationContext(),"主颜色");
-
+  <style name="AppTheme" parent="QMUI.Compat">
 ```	
+#### 主题更换
+```
 
+  <style name="AppTheme" parent="QMUI.Compat">
+```
 #### 在manifest添加
 ```
      <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />

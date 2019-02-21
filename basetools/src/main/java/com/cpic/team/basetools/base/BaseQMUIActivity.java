@@ -133,6 +133,7 @@ public abstract class BaseQMUIActivity extends QMUIActivity {
                 .setIconType(QMUITipDialog.Builder.ICON_TYPE_SUCCESS)
                 .setTipWord(msg)
                 .create();
+        dialog.show();
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -151,6 +152,7 @@ public abstract class BaseQMUIActivity extends QMUIActivity {
                 .setIconType(QMUITipDialog.Builder.ICON_TYPE_FAIL)
                 .setTipWord(msg)
                 .create();
+        dialog.show();
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -164,6 +166,7 @@ public abstract class BaseQMUIActivity extends QMUIActivity {
                 .setIconType(QMUITipDialog.Builder.ICON_TYPE_INFO)
                 .setTipWord(msg)
                 .create();
+        dialog.show();
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
