@@ -22,16 +22,8 @@ public class BaseConfig {
     public static String Name = "";
     public static Boolean isrelease = false;
 
-    public static void init(Application appContext, String mainColor) {
+    public static void init(Application appContext) {
         context = appContext;
-        MainColor = mainColor;
         QMUISwipeBackActivityManager.init(appContext);
-    }
-
-    public static void setAliOss(String url, String user, String key, String name) {
-        URL = url;
-        User = user;
-        Key = key;
-        Name = name;
     }
 }
