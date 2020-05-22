@@ -41,7 +41,6 @@ public class NormalTitleLayout extends LinearLayout implements IWindowInsetLayou
         LayoutInflater mInflater = LayoutInflater.from(context);
         topBar = (QMUITopBarLayout) mInflater.inflate(R.layout.layout_title, null);
         addView(topBar,0);
-        topBar.setBackgroundDividerEnabled(false);
         setOrientation(VERTICAL);
     }
 
